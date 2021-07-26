@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class QuestionController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/", name="app_homepage")
      * @return Response
      */
     public function homepage() {
@@ -19,7 +19,7 @@ class QuestionController extends AbstractController
     }
 
     /**
-     * @Route("/shoes/{slug}")
+     * @Route("/shoes/{slug}", name="app_question_show")
      * @return Response
      */
     public function show($slug) {
