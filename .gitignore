@@ -12,3 +12,7 @@
 ###> phpstorm ###
 /.idea
 ###< phpstorm ###
+
+###> input ###
+/tutorial
+###< input ###
